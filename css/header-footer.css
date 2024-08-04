@@ -1,0 +1,220 @@
+:root {
+    /* ---------main-color */
+    --color-Primary : #00925D;
+    --color-Primary-Shade-1 : #008253;
+    --color-Primary-Shade-2 : #007248;
+    --color-Primary-Shade-3 : #00613E;
+    --color-Primary-Shade-4 : #005134;
+    --color-Primary-Shade-5 : #004129;
+    --color-Primary-Shade-6 : #00311F;
+    --color-Primary-Shade-7 : #002015;
+    --color-Primary-Shade-8 : #00100A;
+
+    --color-Primary-Tint-1 : #00BA77;
+    --color-Primary-Tint-2 : #00e391;
+    --color-Primary-Tint-3 : #0CFFA7;
+    --color-Primary-Tint-4 : #35FFB6;
+    --color-Primary-Tint-5 : #5DFFC4;
+    --color-Primary-Tint-6 : #86FFD3;
+    --color-Primary-Tint-7 : #AEFFE2;
+    --color-Primary-Tint-8 : #D7FFF0;
+
+
+    /* --------complementary color */
+    --color-complementary : #920035;
+    --color-complementary-Shade-1 : #82002F;
+    --color-complementary-Shade-2 : #720029;
+    --color-complementary-Shade-3 : #610023;
+    --color-complementary-Shade-4 : #51001D;
+    --color-complementary-Shade-5 : #410018;
+    --color-complementary-Shade-6 : #310012;
+    --color-complementary-Shade-7 : #20000C;
+    --color-complementary-Shade-8 : #100006;
+
+    --color-complementary-Tint-1 : #BA0044;
+    --color-complementary-Tint-2 : #E30052;
+    --color-complementary-Tint-3 : #ff0c64;
+    --color-complementary-Tint-4 : #ff357e;
+    --color-complementary-Tint-5 : #FF5D98;
+    --color-complementary-Tint-6 : #ff86b2;
+    --color-complementary-Tint-7 : #FFAECB;
+    --color-complementary-Tint-8 : #FFD7E5;
+
+    /* --------Neutral colors */
+    --color-Black : #0c0c0c;
+    --color-white : #fdfdfd;
+
+    --color-Neutral-Gray-1 : #FAFAFA;
+    --color-Neutral-Gray-2 : #F9F9F9;
+    --color-Neutral-Gray-3 : #EDEDED;
+    --color-Neutral-Gray-4 : #E1E1E1;
+    --color-Neutral-Gray-5 : #D9D9D9;
+    --color-Neutral-Gray-6 : #CBCBCB;
+    --color-Neutral-Gray-7 : #ADADAD;
+    --color-Neutral-Gray-8 : #909090;
+    --color-Neutral-Gray-9 : #717171;
+    --color-Neutral-Gray-10 : #505050;
+    --color-Neutral-Gray-11 : #353535;
+    --color-Neutral-Gray-12 : #212121;
+    --color-Neutral-Gray-13 : #121212;
+    --color-Neutral-Gray-14 : #090909;
+
+    /* ---------Status colors */
+    /* success */
+    --color-Success : #00966D;
+    --color-Success-Light : #00BA88;
+    --color-Success-BG : #BFFEEA;
+
+    /* warrning */
+    --color-Warning : #E2B93B;
+    --color-Warning-Light : #DEB53A;
+    --color-Warning-BG : #FFF8E1;
+
+    /* error */
+    --color-Error : #C30000;
+    --color-Error-Light : #ED2E2E;
+    --color-Error-BG : #FCE8E8;
+
+    /* --------- typography */
+
+    /* Desktop */
+    --display-1--64-px : 4rem;
+    --display-2--56-px : 3.5rem;
+
+    --Desktop-H-1-44px : 2.75rem;
+    --Desktop-H-2-40px : 2.5rem;
+    --Desktop-H-3-32px : 2rem;
+    --Desktop-H-4-24px : 1.5rem;
+    --Desktop-H-5-20px : 1.25rem;
+    --Desktop-H-6-16px : 1rem;
+
+    --Desktop-Body-3XL : 2.75rem;
+    --Desktop-Body-2XLG : 2.5rem;
+    --Desktop-Body-XLG : 2rem;
+    --Desktop-Body-MD : 1.75rem;
+    --Desktop-Body-LG : 1.75rem;
+    --Desktop-Body-SMD : 1.5rem;
+    --Desktop-Body-Regular : 1.25rem;
+    --Desktop-Body-S : 1.125rem;
+    --Desktop-Body-XS : 1rem;
+    --Desktop-Body-XXS : 0.875rem;
+
+    --Desktop-Caption-LG : 0.875rem;
+    --Desktop-Caption-MD : 0.75rem;
+
+    --Desktop-Button-XLG : 1.125rem;
+    --Desktop-Button-LG : 1rem;
+    --Desktop-Button-MD : 0.875rem;
+    --Desktop-Button-S : 075rem;
+
+    /* Mobail */
+    --Mobail-H-1-32px : 2rem;
+    --Mobail-H-2-24px : 1.5rem;
+    --Mobail-H-3-20px : 1.25rem;
+    --Mobail-H-4-18px : 1.125rem;
+    --Mobail-H-5-16px : 1rem;
+    --Mobail-H-6-14px : 0.875rem;
+
+    --Mobail-Body-XL : 1.25rem;
+    --Mobail-Body-LG : 1.125rem;
+    --Mobail-Body-MD : 1rem;
+    --Mobail-Body-SM : 0.875rem;
+
+    --Mobail-Button-LG : 1rem;
+    --Mobail-Button-MD : 0.875rem;
+
+    --Mobail-Caption-LG : 0.875rem;
+    --Mobail-Caption-MD : 0.75rem;
+    --Mobail-Caption-SM : 0.625rem;
+
+    /* ------------Radius */
+    --R-1 : 4px;
+    --R-2 : 8px;
+    --R-3 : 12px;
+    --R-4 : 16px;
+    --R-5 : 24px;
+    --R-6 : 32px;
+
+    /* -------------Padding */
+    --P-1-4px : 0.25rem;
+    --P-2-8px : 0.5rem;
+    --P-3-12px : 0.75rem;
+    --P-4-16px : 1rem;
+    --P-5-20px : 1.25rem;
+    --P-6-24px : 1.5rem;
+    --P-7-32px : 2rem;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    direction: rtl;
+}
+
+
+/* --------header-Style */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: var(--P-3-12px);
+    border-radius: var(--R-3);
+    background-color: rgba(12, 12, 12, 0.7);
+    border: 1px solid var(--color-Neutral-Gray-12);
+    width: 90%;
+    height: 3rem;
+    margin: auto;
+    margin-top: 3rem;
+}
+.header-left, .header-right {
+    display: flex;
+    align-items: center;
+}
+
+.header-right-navbar ul {
+    display: flex;
+    margin-right: 5rem;
+}
+
+.header-right-navbar ul li {
+    list-style-type: none;
+    margin-right: 2rem;
+    font-size: var(--Desktop-Body-XS);
+    font-weight: 400;
+    line-height: 28.8px;
+    text-align: left;
+    color: var(--color-white);
+    font-family: 'IRANYekanXFaNum-Black';
+}
+.header-right-navbar i {
+    color: var(--color-white);
+    margin-right: .3rem;
+}
+.header-left-search-box {
+    width: 296px;
+    height: 2rem;
+    padding: 6px 15px;
+    border-radius: var(--R-2);   
+    background: var(--color-Neutral-Gray-12);
+    margin-left: 2rem;
+}
+.header-left-search-box input {
+    background: var(--color-Neutral-Gray-12);
+    border: none;
+    margin-left: 4rem;
+}
+.fa-solid, .header-left-search-box::placeholder {
+    color: var(--color-Neutral-Gray-10);
+}
+.header-left-dashbord button {
+    width: 80px;
+    height: 32px;
+    gap: var(--P-2-8px);
+    border-radius: var(--R-2);
+    background: var(--color-Primary);
+    color: var(--color-white);   
+    border: none; 
+    text-align: center;
+}
+
+/* --------header-Style End */
