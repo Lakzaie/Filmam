@@ -128,12 +128,12 @@
     --Mobail-Caption-SM : 0.625rem;
 
     /* ------------Radius */
-    --R-1 : 4px;
-    --R-2 : 8px;
-    --R-3 : 12px;
-    --R-4 : 16px;
-    --R-5 : 24px;
-    --R-6 : 32px;
+    --R-1-4px : 4px;
+    --R-2-8px : 8px;
+    --R-3-12px : 12px;
+    --R-4-16px : 16px;
+    --R-5-24px : 24px;
+    --R-6-32px : 32px;
 
     /* -------------Padding */
     --P-1-4px : 0.25rem;
@@ -143,6 +143,10 @@
     --P-5-20px : 1.25rem;
     --P-6-24px : 1.5rem;
     --P-7-32px : 2rem;
+    
+    background-color: var(--color-Black);
+    
+    font-family: 'IRANYekanXFaNum-Medium';
 }
 
 *{
@@ -158,7 +162,7 @@ header {
     display: flex;
     justify-content: space-between;
     padding: var(--P-3-12px);
-    border-radius: var(--R-3);
+    border-radius: var(--R-3-12px);
     background-color: rgba(12, 12, 12, 0.7);
     border: 1px solid var(--color-Neutral-Gray-12);
     width: 90%;
@@ -169,6 +173,14 @@ header {
 .header-left, .header-right {
     display: flex;
     align-items: center;
+}
+
+.hamberger-menu-icon {
+    display: none;
+}
+
+.header-right-logo {
+    margin-top: .2rem;
 }
 
 .header-right-navbar ul {
@@ -184,7 +196,6 @@ header {
     line-height: 28.8px;
     text-align: left;
     color: var(--color-white);
-    font-family: 'IRANYekanXFaNum-Black';
 }
 .header-right-navbar i {
     color: var(--color-white);
@@ -194,27 +205,196 @@ header {
     width: 296px;
     height: 2rem;
     padding: 6px 15px;
-    border-radius: var(--R-2);   
+    border-radius: var(--R-2-8px);   
     background: var(--color-Neutral-Gray-12);
     margin-left: 2rem;
+    color: var(--color-Neutral-Gray-10);
 }
+
 .header-left-search-box input {
     background: var(--color-Neutral-Gray-12);
     border: none;
-    margin-left: 4rem;
+    margin-left: 5rem;
+    font-size: var(--Mobail-H-6-14px);
+    font-family: 'IRANYekanXFaNum-Medium';
 }
-.fa-solid, .header-left-search-box::placeholder {
-    color: var(--color-Neutral-Gray-10);
-}
+
+
 .header-left-dashbord button {
     width: 80px;
     height: 32px;
     gap: var(--P-2-8px);
-    border-radius: var(--R-2);
+    border-radius: var(--R-2-8px);
     background: var(--color-Primary);
     color: var(--color-white);   
     border: none; 
     text-align: center;
+    font-family: 'IRANYekanXFaNum-Medium';
+}
+/* --------header Style End */
+
+
+
+/* ------------ footer Style */
+footer {
+    border-top: 1px solid var(--color-Neutral-Gray-11);
+    padding: 3rem 6.75rem;
+    margin-top: 8rem;
+}
+.footer-container {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    column-gap: 6rem;
+}
+.footer-text p {
+    font-size: var(--Desktop-Body-XXS);
+    font-weight: 400;
+    line-height: 25.2px;
+    text-align: justify;
+    color : var(--color-white);    
+    margin-top: 1rem;
+}
+.footer-advantage {
+    display: flex;
+    color: var(--color-Primary-Tint-1);
+    gap: 1rem;
+    margin-top: 1.5rem;
+    flex-wrap: wrap;
+}
+.footer-advantage-list-item {
+    display: flex;
+    gap: .4rem;
+    align-items: center;
+}
+.footer-advantage-list-item i {
+    font-size: .8rem;
+}
+.footer-advantage-list-item h3 {
+    font-size: var(--Desktop-Caption-MD);
+    font-weight: 400;
+    line-height: 21.6px;
+    text-align: right;
+}
+.footer-social-media {
+    text-align: left;
+    align-self: start;
+    margin-top: 3.5rem;
 }
 
-/* --------header-Style End */
+.footer-social-media h4  {
+    font-size: var(--Desktop-Body-XXS);
+    font-weight: 400;
+    line-height: 25.2px;
+    color: var(--color-Neutral-Gray-8);
+}
+.footer-social-media-icon {
+    display: flex;
+    justify-content: end;
+    gap: .5rem;
+    margin-top: .5rem;
+}
+.footer-social-media-icon i{
+    padding: 4px 6px;
+    border-radius: var(--R-2-8px);
+    background-color: var(--color-Primary-Shade-7);
+    color: var(--color-Primary-Tint-3);
+    font-size: 1.3rem;
+}
+
+.Footnote {
+    border-top: 1px solid var(--color-Neutral-Gray-11);
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2rem;
+}
+.Footnote p {
+    font-size: var(--Desktop-Caption-MD);
+    font-weight: 400;
+    line-height: 21.6px;
+    color: var(--color-Neutral-Gray-9);
+}
+
+.Footnote h4 {
+    font-size: var(--Desktop-Caption-MD);
+    font-weight: 400;
+    line-height: 21.6px;
+    color: var(--color-Neutral-Gray-9);
+}
+
+/* ------------ footer Style End */
+
+
+/* ---------- responsiv */
+@media (max-width: 360px) {
+    /* ---- header responsive */
+    header {
+        background-color: rgba(12, 12, 12, 0.0);
+        border: none;
+        padding-right: 0;
+    }
+     
+    .header-right-logo ,.header-right-logo img{
+        width: 6rem;
+    }
+    
+    .hamberger-menu-icon {
+        display: block;
+        color: var(--color-white);
+        font-size: 1.4rem;
+        margin-left: .7rem;
+    }
+    .header-right-navbar ul {
+        display: none;
+    }
+    .header-left-search-box {
+        margin: 0;
+        width: 9rem;
+        height: 2.5rem;
+        padding: .5rem .5rem .6rem 0;
+    }
+    .header-left-search-box input {
+        margin: 0;
+        width: 6.5rem;
+        font-size: 1rem;
+    }
+    
+    .header-left-dashbord button {
+        display: none;
+    }
+    /* ---- header responsive End*/
+
+
+    /* ------ footer responsive */
+    footer {
+        padding: 48px 20px;
+        gap: var(--P-4-16px);
+    }
+    .footer-container {
+        grid-template-columns: 2fr;
+    }
+    .footer-advantage {
+        gap: .7rem;
+        row-gap: 1.2rem;
+    }
+    .item3 {
+        width: 7.5rem;
+    }
+    .footer-social-media {
+        text-align: center;
+        margin-top: 1.5rem;
+    }
+    .footer-social-media-icon {
+        justify-content: center;
+    }
+    .Footnote {
+        padding-top: 1rem;
+        font-size: var(--P-3-12px);
+    }
+    .nowrap-cms{
+        width: 16rem;
+        white-space: nowrap; 
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}

@@ -1,54 +1,54 @@
 @font-face {
     font-family: 'IRANYekanXFaNum-Black';
-    src: url('../assets/font/IRANYekanXFaNum-Black.ttf') format('ttf');
+    src: url('../assets/font/Woff/IRANYekanXFaNum-Black.woff') format('woff');
 }
 
 @font-face {
     font-family: 'IRANYekanXFaNum-Bold';
-    src: url('../assets/font/IRANYekanXFaNum-Bold.ttf') format('ttf');
+    src: url('../assets/font/Woff/IRANYekanXFaNum-Bold.woff') format('woff');
 }
 
 @font-face {
     font-family: 'IRANYekanXFaNum-DemiBold';
-    src: url('../assets/font/IRANYekanXFaNum-DemiBold.ttf') format('ttf');
+    src: url('../assets/font/Woff/IRANYekanXFaNum-DemiBold.woff') format('woff');
 }
 
 @font-face {
     font-family: 'IRANYekanXFaNum-ExtraBlack';
-    src: url('../assets/font/IRANYekanXFaNum-ExtraBlack.ttf') format('ttf');
+    src: url('../assets/font/Woff/IRANYekanXFaNum-ExtraBlack.woff') format('woff');
 }
 
 @font-face {
     font-family: 'IRANYekanXFaNum-ExtraBold';
-    src: url('../assets/font/IRANYekanXFaNum-ExtraBold.ttf') format('ttf');
+    src: url('../assets/font/Woff/IRANYekanXFaNum-ExtraBold.woff') format('woff');
 }
 
 @font-face {
     font-family: 'IRANYekanXFaNum-Heavy';
-    src: url('../assets/font/IRANYekanXFaNum-Heavy.ttf') format('ttf');
+    src: url('../assets/font/Woff/IRANYekanXFaNum-Heavy.woff') format('woff');
 }
 
 @font-face {
     font-family: 'IRANYekanXFaNum-Light';
-    src: url('../assets/font/IRANYekanXFaNum-Light.ttf') format('ttf');
+    src: url('../assets/font/Woff/IRANYekanXFaNum-Light.woff') format('woff');
 }
 
 @font-face {
     font-family: 'IRANYekanXFaNum-Medium';
-    src: url('../assets/font/IRANYekanXFaNum-Medium.ttf') format('ttf');
+    src: url('../assets/font/Woff/IRANYekanXFaNum-Medium.woff') format('woff');
 }
 
 @font-face {
     font-family: 'IRANYekanXFaNum-Regular';
-    src: url('../assets/font/IRANYekanXFaNum-Regular.ttf') format('ttf');
+    src: url('../assets/font/Woff/IRANYekanXFaNum-Regular.woff') format('woff');
 }
 
 @font-face {
     font-family: 'IRANYekanXFaNum-Thin';
-    src: url('../assets/font/IRANYekanXFaNum-Thin.ttf') format('ttf');
+    src: url('../assets/font/Woff/IRANYekanXFaNum-Thin.woff') format('woff');
 }
 
 @font-face {
     font-family: 'IRANYekanXFaNum-UltraLight';
-    src: url('../assets/font/IRANYekanXFaNum-UltraLight.ttf') format('ttf');
+    src: url('../assets/font/Woff/IRANYekanXFaNum-UltraLight.woff') format('woff');
 }
