@@ -128,12 +128,12 @@
     --Mobail-Caption-SM : 0.625rem;
 
     /* ------------Radius */
-    --R-1 : 4px;
-    --R-2 : 8px;
-    --R-3 : 12px;
-    --R-4 : 16px;
-    --R-5 : 24px;
-    --R-6 : 32px;
+    --R-1-4px : 4px;
+    --R-2-8px : 8px;
+    --R-3-12px : 12px;
+    --R-4-16px : 16px;
+    --R-5-24px : 24px;
+    --R-6-32px : 32px;
 
     /* -------------Padding */
     --P-1-4px : 0.25rem;
@@ -144,3 +144,619 @@
     --P-6-24px : 1.5rem;
     --P-7-32px : 2rem;
 }
+html{
+    overflow-x: hidden;
+}
+
+/* --------------header Style */
+
+.header-imag {
+    position: relative;
+}
+
+.img-background{
+    position: relative;
+    width: 100%;
+    height: 39rem;
+}
+.header-overlay  {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.header-overlay img{
+    width: 100%;
+    height: 39rem;
+}
+
+.header-imag-content {
+    position: absolute;
+    top: 14.5rem;
+    right: 4rem;
+}
+.header-imag-content h1 {
+    font-size: var(--display-2--56-px);
+    font-weight: 700;
+    line-height: 67.2px;
+    text-align: right;   
+    text-shadow: 0px 4px 4px 0px #00000040;
+    color: var(--color-white); 
+    padding-bottom: .5rem;
+}
+.header-imag-content-genre h5{
+    border: 1px solid var(--color-Neutral-Gray-10);
+    color: var(--color-white);
+    border-radius: var(--R-2-8px);
+    padding: .3rem;
+    display: inline-block;
+    font-weight: 400;
+    background-color: #2F2F2F66;
+    width: 55px;
+    text-align: center;
+    margin-right: 2px;
+}
+.header-imag-content p {
+    width: 24.5625rem;
+    font-size: var(--Desktop-Body-XS);
+    font-weight: 400;
+    line-height: 28.8px;
+    text-align: justify;   
+    color: var(--color-white); 
+    padding-top: .7rem;
+}
+
+.header-imag-content-button {
+    margin-top: 2rem;
+    display: flex;
+}
+
+.header-imag-content-button-visi {
+    background: var(--color-Primary);
+    border-radius: var(--R-3-12px);
+    padding: var(--P-4-16px);
+    text-align: center;
+    color: var(--color-white);
+    font-family: 'IRANYekanXFaNum-Medium';
+    border: none;
+    font-size: 18px;
+    width: 128px;
+    height: 3.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-imag-content-button-visi i{
+    margin-left: .8rem;
+}
+
+.header-imag-content-button-add {
+    border-radius: var(--R-3-12px);
+    border: 1px solid var(--color-Neutral-Gray-5);
+    font-family: 'IRANYekanXFaNum-Medium';
+    font-size: 1.125rem;
+    color: var(--color-Neutral-Gray-7);
+    font-weight: 500;
+    background: none;
+    height: 3.3rem;
+    margin-right: 1rem;
+    width: 252px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-imag-content-button-add i {
+    margin-left: .5rem;
+    font-size: 1.5rem;
+}
+.slidshow-button {
+    display: flex;
+    position: absolute;
+    bottom: 3.8rem;
+    left: 6.8rem;
+    gap: .5rem;
+}
+
+.slidshow-icon {
+    width: 16px;
+    height: 16px;
+    background-color: var(--color-Neutral-Gray-11);
+    border-radius: 120px;
+}
+
+.slidshow-icon:nth-child(2) {
+    background-color: var(--color-Primary);
+}
+/* --------------header Style End*/
+
+
+/* --------------new-releases-cards-text */
+.new-releases-cards-text {
+    margin-right: 4rem;
+}
+.new-releases-text {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1.5rem;
+    margin-top: 2rem;
+}
+
+.new-releases-text h2 {
+    font-family: 'IRANYekanXFaNum-Medium';
+    font-size: var(--Desktop-H-5-20px);
+    font-weight: 700;
+    line-height: 28px;
+    text-align: right;
+    color: var(--color-white);
+}
+.more {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 7rem;
+}
+.more a{
+    font-size: var(--Desktop-Body-XXS);
+    text-decoration: none;
+    color: var(--color-Neutral-Gray-7);
+    font-family: 'IRANYekanXFaNum-Medium';
+}
+.more i {
+    font-size: 20px;
+    color: var(--color-Neutral-Gray-7);
+    width: 20px;
+    height: 20px;
+    margin-top: 1rem;
+    margin-right: .5rem;
+}
+
+.new-releases-cards {
+    display: flex;
+    gap: 1.5rem;
+}
+.new-releases-card1 img , .new-releases-card2 img, .new-releases-card3 img, .new-releases-card4 img, .new-releases-card5 img, .new-releases-card6 img{
+    width: 207px;
+    height: 370px;
+    border-radius: var(--R-4-16px);
+    object-fit: cover; 
+    border: 1px solid var(--color-Neutral-Gray-10); 
+}
+.new-releases-card1, .new-releases-card2, .new-releases-card3, .new-releases-card4, .new-releases-card5{
+    position: relative;
+}
+.new-releases-card1 label, .new-releases-card2 label, .new-releases-card3 label, .new-releases-card4 label, .new-releases-card5 label, .new-releases-card6 label {
+    position: absolute;
+    font-size: var(--Desktop-Caption-MD);
+    font-weight: 400;
+    color: var(--color-white);
+    width: 46px;
+    height: 22px;
+    top: 6px;
+    left: 155px;
+    padding-top: .1rem;
+    border-radius: var(--R-2-8px); 
+    background: rgba(12, 12, 12, 0.7);   
+    text-align: center;
+}
+
+.new-releases-cards-lable {
+    background-color: rgba(12, 12, 12, 0.7);
+    border-radius: 0px 0px 16px 16px;
+    position: absolute;
+    bottom: 7px;
+    color: var(--color-white);
+    width: 99%;  
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    padding: 1rem .8rem;
+    left: 1px;
+}
+.new-releases-cards-lable-left {
+    color: var(--color-Neutral-Gray-8);
+}
+.new-releases-card6 {
+    position: relative;
+}
+.bg-overly{
+    position: absolute;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,0.8959755777310925) 0%, rgba(0,0,0,0.6998971463585435) 44%, rgba(255,255,255,0) 100%);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 6px;
+}
+/* --------------new-releases-cards-text End*/
+
+/* popular film cart style */
+.bg-film-cart {
+    width: 100%;
+    height: 707px;
+    background-image: url(../assets/img/photo_2024-08-06_11-07-41.jpg);
+    margin-top: 2rem;
+    position: relative;
+}
+
+.film-cart-head {
+    display: flex;
+}
+.film-cart-head h2 {
+    font-family: 'IRANYekanXFaNum-Medium';
+    font-size: var(--Desktop-H-5-20px);
+    font-weight: 700;
+    text-align: right;
+    color: var(--color-white);
+    position: absolute;
+    top: 2.5rem;
+    right: 4rem;
+}
+.more-show {
+    position: absolute;
+    top: 2.5rem;
+    left: 3.7rem;
+}
+.more-show {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 3rem;
+}
+.more-show a{
+    font-size: var(--Desktop-Body-XXS);
+    text-decoration: none;
+    color: var(--color-Neutral-Gray-7);
+    font-family: 'IRANYekanXFaNum-Medium';
+}
+.more-show i {
+    font-size: 20px;
+    color: var(--color-Neutral-Gray-7);
+    width: 20px;
+    height: 20px;
+    margin-top: 1rem;
+    margin-right: .5rem;
+}
+.film-cart-text {
+    position: absolute;
+    top: 15rem;
+    right: 4rem;
+}
+.film-cart-text label {
+    font-size: var(--display-2--56-px);
+    font-weight: 700;
+    text-align: right;
+    color: var(--color-white);
+}
+
+.film-cart-text span {
+    font-size: var(--Desktop-H-5-20px);
+    font-weight: 700;
+    text-align: right;
+    color: var(--color-white);
+}
+
+.film-cart-text-lable {
+    display: flex;
+}
+.film-cart-text-lable h5 {
+    border: 1px solid var(--color-Neutral-Gray-10);
+    color: var(--color-white);
+    border-radius: var(--R-2-8px);
+    padding: .3rem;
+    font-weight: 400;
+    background-color: #2F2F2F66;
+    width: 55px;
+    text-align: center;
+    margin-left: 7px; 
+    margin-top: .4rem;
+}
+.film-cart-text p {
+    width: 393px;
+    height: 145px;
+    font-size: var(--Desktop-Body-XS);
+    font-weight: 400;
+    line-height: 28.8px;
+    text-align: justify;
+    color: var(--color-white);  
+    margin-top: .5rem;
+}
+
+
+/* ------- style film cart */
+
+.film-carts {
+    display: flex;
+    gap: 1.5rem;
+    top: 168px;
+    left: -955px;
+    position: relative;
+}
+
+.film-carts-card1, .film-carts-card2 {
+    background-image: url(../assets/img/film-cart1.png);
+    background-size: cover;
+    background-position: center;
+    width: 207px;
+    height: 370px;
+    border-radius: var(--R-4-16px);  
+    border: 1px solid var(--color-Neutral-Gray-10);
+}
+.film-carts-card1 h5, .film-carts-card2 h5 {
+    margin-top: .5rem;
+    margin-right: .5rem;
+    font-size: var(--Desktop-Caption-MD);
+    font-weight: 400;
+    color: var(--color-white);
+    width: 46px;
+    height: 22px;
+    border-radius: var(--R-2-8px); 
+    background: rgba(12, 12, 12, 0.7); 
+    text-align: center;
+    padding-top: .2rem;
+}
+.film-carts-card1-button-text {
+    height: 340px;
+    display: grid;
+    place-items: end;
+}
+
+.film-carts-lable {
+    color: var(--color-white);
+    background-color: rgba(12, 12, 12, 0.7);
+    width: 100%;
+    border-radius: 0px 0px 16px 16px;
+    display: flex;
+    justify-content: space-between;
+    height: 2.5rem;
+    align-items: center;
+    padding: .8rem;
+    font-size: 12px;
+}
+
+.film-carts-lable-left {
+    color: var(--color-Neutral-Gray-8);
+}
+.film-carts-card2 {
+    background-image: url(../assets/img/film-cart2.png);
+    position: relative;
+}
+/* ------- style film cart end */
+/* popular film cart end style */
+
+
+/* animation-cards style */
+.animation-cards h2{
+    text-align: center;
+    color: var(--color-white);
+    margin-top: 4rem;
+    font-size: var(--Desktop-H-4-24px);
+}
+.bg-oveerly{
+    position: absolute;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,0.8959755777310925) 0%, rgba(0,0,0,0.6998971463585435) 44%, rgba(255,255,255,0) 100%);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.animation-card-img {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    margin-top: 6rem;
+}
+
+.animation-card-img img {
+    width: 207px;
+    height: 370px;
+    border-radius: var(--R-4-16px);
+    border: 1px solid var(--color-Black);
+}
+.animation-img-1, .animation-img-2, .animation-img-4, .animation-img-5 {
+    filter: blur(1px);
+}
+
+.animation-img-3 img{
+    transform: scale(1.3);
+    margin: 0 1rem;
+    box-shadow: 0px 0px 10px rgba(80, 80, 80, 0.30);
+    filter: blur(0);
+}
+
+.slidshow {
+    display: flex;
+    gap: .5rem;
+    margin-top: 5rem;
+    justify-content: center;
+}
+.slidshow-i {
+    width: 16px;
+    height: 16px;
+    background-color: var(--color-Neutral-Gray-11);
+    border-radius: 120px;
+}
+.slidshow-i:nth-child(3) {
+    background-color: var(--color-Primary);
+}
+.animation-cart-text {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    gap: 1.5rem;
+}
+.animation-cart-text p {
+    color: var(--color-white);
+    font-size: var(--Desktop-Body-XS);
+    font-weight: 400;
+    line-height: 28.8px;
+    text-align: right;
+}
+.animation-cart-text div {
+    background-color: var(--color-Primary);
+    width: 124px;
+    height: 32px;
+    padding: var(--P-2-8px);
+    border-radius: var(--R-2-8px);
+    color: var(--color-white);
+    font-size: 12px;
+    text-align: center;
+}
+.animation-cart-text i {
+    margin-right: 8px;
+}
+/* animation-cards style end*/
+
+/*--------------------------- new serial style */
+.new-serial-cards-text {
+    margin-top: 7rem;
+    margin-right: 4.5rem;
+}
+
+.new-serial-text {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1.5rem;
+    margin-top: 2rem;
+}
+
+.new-serial-text h2 {
+    font-family: 'IRANYekanXFaNum-Medium';
+    font-size: var(--Desktop-H-5-20px);
+    font-weight: 700;
+    line-height: 28px;
+    text-align: right;
+    color: var(--color-white);
+}
+
+.more-serial {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5rem;
+}
+.more-serial a{
+    font-size: var(--Desktop-Body-XXS);
+    text-decoration: none;
+    color: var(--color-Neutral-Gray-7);
+    font-family: 'IRANYekanXFaNum-Medium';
+}
+.more-serial i {
+    font-size: 20px;
+    color: var(--color-Neutral-Gray-7);
+    width: 20px;
+    height: 20px;
+    margin-top: 1rem;
+    margin-right: .5rem;
+}
+/*--------------------------- new serial style end*/
+
+/* -----------realitishow vijeh style */
+.reality-title{
+    font-size: var(--Desktop-H-5-20px);
+    font-weight: 700;
+    line-height: 28px;
+    text-align: right;
+    color: var(--color-Primary);
+    margin-top: 5rem;
+    margin-right: 4rem;
+}
+
+.reality {
+    display: flex;
+    margin-right: 4rem;
+    margin-top: 1rem;
+    gap: 1.2rem;
+}
+
+.reality-slidshow img {
+    width: 669px;
+    height: 370px;
+    border-radius: var(--R-4-16px);
+    border: 1px solid var(--color-Neutral-Gray-10);
+}
+.reality-slidshow-img {
+    position: relative;
+}
+
+.reality-img-footnot {
+    width: 669px;
+    height: 56px;
+    position: absolute;  
+    bottom: 0; 
+    background-color: rgba(12, 12, 12, 0.7);
+}
+.reality-img-footnot h5 {
+    margin-top: .8rem;
+    margin-right: .5rem;
+    color: var(--color-white);
+    font-size: var(--Desktop-H-6-16px);
+    font-weight: 500;
+    line-height: 22.4px;
+    text-align: right;
+}
+.slidshow-reality {
+    position: absolute;
+    bottom: 23px;
+    left: 10px;
+    display: flex;
+    gap: .5rem;
+    margin-top: 5rem;
+    justify-content: center;
+}
+.reality-slidshow-i {
+    width: 16px;
+    height: 16px;
+    background-color: var(--color-Neutral-Gray-11);
+    border-radius: 120px;
+}
+.reality-slidshow-i:nth-child(4) {
+    background-color: var(--color-Primary);
+}
+.reality-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+}
+
+.reality-card-1 {
+    display: flex;
+    gap: .5rem;
+}
+.reality-card-1 img {
+    width: 106px;
+    height: 173px;
+    border-radius: var(--R-4-16px);
+    border: 1px solid var(--color-Neutral-Gray-10);
+}
+.lable-icon {
+    margin-right: .4rem;
+}
+.lable-icon h3 {
+    color: var(--color-white);
+    font-size: var(--Desktop-H-5-20px);
+    font-weight: 700;
+    line-height: 28px;
+    text-align: right;
+}
+.lable-icon div {
+    color: var(--color-Neutral-Gray-8);
+    font-size: var(--Desktop-Body-XXS);
+    font-weight: 400;
+    line-height: 25.2px;
+    text-align: right;
+}
+.lable-icon i {
+    font-size: 1.4rem;
+    margin-left: .3rem;
+}
+.reality-icon-1 {
+    margin-top: 1rem;
+    display: flex;
+}
+.reality-icon-2, .reality-icon-3, .reality-icon-4 {
+    margin-top: .3rem;
+    display: flex;
+}
+/* -----------realitishow vijeh style end */
